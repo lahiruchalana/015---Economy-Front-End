@@ -7,6 +7,7 @@ import {
 import Header from './Components/Header';
 import Home from './Views/Home';
 import EconomyOfCountry from './Views/EconomyOfCountry';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
