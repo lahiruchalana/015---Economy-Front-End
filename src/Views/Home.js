@@ -5,8 +5,8 @@ import { Button } from 'react-bootstrap';
 function Home(){
     return (
         <div>
-            <div class="container">
-                <h2 class="title">Select The Region</h2>
+            <div className="container">
+                <h2 className="title">Select The Region</h2>
                 <div className="d-grid gap-2">
                 <Button href="/asia" variant="outline-success" size="lg">
                     Asia

@@ -5,8 +5,8 @@ import { Button } from 'react-bootstrap';
 function Asia(){
     return (
         <div>
-            <div class="container">
-                <h2 class="title">Select The Country</h2>
+            <div className="container">
+                <h2 className="title">Select The Country</h2>
                 <div className="d-grid gap-2">
                 <Button href="/country/China" variant="success" size="lg">
                     China
@@ -28,6 +28,27 @@ function Asia(){
                 </Button>
                 <Button href="/country/Maldives" variant="success" size="lg">
                     Maldives
+                </Button>
+                <Button href="/country/Iran" variant="success" size="lg">
+                    Iran
+                </Button>
+                <Button href="/country/United%20Arab%20Emirates" variant="success" size="lg">
+                    United Arab Emirates
+                </Button>
+                <Button href="/country/Japan" variant="success" size="lg">
+                    Japan
+                </Button>
+                <Button href="/country/Singapore" variant="success" size="lg">
+                    Singapore
+                </Button>
+                <Button href="/country/Thailand" variant="success" size="lg">
+                    Thailand
+                </Button>
+                <Button href="/country/Malaysia" variant="success" size="lg">
+                    Malaysia
+                </Button>
+                <Button href="/country/Indonesia" variant="success" size="lg">
+                    Indonesia
                 </Button>
                 </div>
             </div>
