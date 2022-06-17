@@ -8,13 +8,13 @@ function Asia(){
             <div class="container">
                 <h2 class="title">Select The Country</h2>
                 <div className="d-grid gap-2">
-                <Button href="/country?countryName=China" variant="success" size="lg">
+                <Button href="/country/China" variant="success" size="lg">
                     China
                 </Button>
-                <Button href="/country?countryName=Sri%20Lanka" variant="success" size="lg">
+                <Button href="/country/Sri%20Lanka" variant="success" size="lg">
                     Sri Lanka
                 </Button>
-                <Button href="/country?countryName=Pakistan" variant="success" size="lg">
+                <Button href="/country/Pakistan" variant="success" size="lg">
                     Pakistan
                 </Button>
                 <Button href="/country/Bangladesh" variant="success" size="lg">

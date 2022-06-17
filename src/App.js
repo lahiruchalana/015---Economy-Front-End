@@ -32,7 +32,7 @@ function App() {
             <Route exact path="/northamerica">
               <NorthAmerica />
             </Route>
-            <Route path="/country">
+            <Route path="/country/:countryName">
               <EconomyOfCountry />
             </Route>
           </Switch>
